@@ -2,13 +2,14 @@
 Summary:	Last.Fm scrobbler for MTP devices
 Name:		mtp-lastfm
 Version:	0.83
-Release:	1
+Release:	2
 License:	GPL v3
 Group:		Applications
 # http://github.com/woodenbrick/mtp-lastfm/tarball/%{version}
 %define		commit 9a6ef66
 Source0:	http://download.github.com/woodenbrick-%{name}-%{commit}.tar.gz
 # Source0-md5:	0774bb8cf776e050dc627a2b0a8d7654
+Patch0:		%{name}-desktop.patch
 URL:		http://github.com/woodenbrick/mtp-lastfm
 BuildRequires:	gettext-devel
 BuildRequires:	intltool
@@ -32,6 +33,7 @@ device (5=Love, 1=Ban).
 
 %prep
 %setup -qn woodenbrick-%{name}-%{commit}
+%patch0 -p1
 
 %build
 %{__python} setup.py build

@@ -1,0 +1,15 @@
+--- woodenbrick-mtp-lastfm-9a6ef66/mtp-lastfm.desktop~	2010-01-04 01:26:37.000000000 +0100
++++ woodenbrick-mtp-lastfm-9a6ef66/mtp-lastfm.desktop	2010-05-12 14:54:16.224755897 +0200
+@@ -1,11 +1,9 @@
+-
+ [Desktop Entry]
+ Type=Application
+ Name=MTP-Lastfm
+ Comment=Scrobble tracks from yout MTP device to Last.fm
+-Comment[fi]=Finnish description
+ Exec=/usr/bin/mtp-lastfm -e
+ Terminal=false
+-Categories=AudioVideo;Audio;
++Categories=AudioVideo;Audio;Player;
+ StartupNotify=false
+ Icon=/usr/share/mtp-lastfm/mtp-lastfm.png
