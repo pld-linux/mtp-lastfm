@@ -2,7 +2,7 @@
 Summary:	Last.Fm scrobbler for MTP devices
 Name:		mtp-lastfm
 Version:	0.83
-Release:	3
+Release:	4
 License:	GPL v3
 Group:		Applications
 # http://github.com/woodenbrick/mtp-lastfm/tarball/%{version}
