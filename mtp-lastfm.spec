@@ -11,7 +11,7 @@ Source0:	http://download.github.com/woodenbrick-%{name}-%{commit}.tar.gz
 # Source0-md5:	0774bb8cf776e050dc627a2b0a8d7654
 Patch0:		%{name}-desktop.patch
 URL:		http://github.com/woodenbrick/mtp-lastfm
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	intltool
 BuildRequires:	python-devel
 BuildRequires:	python-distutils-extra
