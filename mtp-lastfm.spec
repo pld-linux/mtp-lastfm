@@ -33,7 +33,7 @@ device (5=Love, 1=Ban).
 
 %prep
 %setup -qn woodenbrick-%{name}-%{commit}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__python} setup.py build
